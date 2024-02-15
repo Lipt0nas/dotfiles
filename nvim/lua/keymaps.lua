@@ -43,7 +43,6 @@ vim.keymap.set('n', '<C-p>', require('telescope.builtin').find_files, { desc = '
 
 vim.keymap.set('n', '<C-n>', '<Cmd>Neotree toggle<CR>', { desc = 'Toggle Neotree' })
 
-vim.keymap.set('n', '<C-Bslash>', '<cmd>vsplit<cr>', { desc = "Split window vertically" })
 vim.keymap.set('n', '<leader>w', '<cmd>close<cr>', { desc = "Close current buffer" })
 vim.keymap.set('n', '<C-A-left>', '<C-w>h', { desc = "Move to left window" })
 vim.keymap.set('n', '<C-A-right>', '<C-w>l', { desc = "Move to right window" })
@@ -54,13 +53,7 @@ vim.keymap.set('n', '<A-down>', '<cmd>:m .+1<cr>==', {})
 vim.keymap.set('n', '<A-up>', '<cmd>:m .-2<cr>==', {})
 vim.keymap.set('i', '<A-down>', '<esc><cmd>:m .+1<cr>==gi', {})
 vim.keymap.set('i', '<A-up>', '<esc><cmd>:m .-2<cr>==gi', {})
--- vim.keymap.set('i', "<Tab>", function()
---   if require('copilot.suggestion').is_visible() then
---     require('copilot.suggestion').accept()
---   else
---     vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Tab>", true, false, true), "n", false)
---   end
--- end, {})
+
 vim.keymap.set('v', '<A-down>', ":m '>+1<cr>gv=gv", {})
 vim.keymap.set('v', '<A-up>', ":m '<-2<cr>gv=gv", {})
 

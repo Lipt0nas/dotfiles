@@ -7,7 +7,7 @@ return {
             suggestion = {
                 auto_trigger = true,
                 keymap = {
-                    accept = "<C-A>",
+                    accept = "<C-Bslash>",
                 }
             },
             filetypes = {
