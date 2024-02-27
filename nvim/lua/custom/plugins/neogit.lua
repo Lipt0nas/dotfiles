@@ -7,5 +7,9 @@ return {
         -- Only one of these is needed, not both.
         "nvim-telescope/telescope.nvim", -- optional
     },
-    config = true
+    config = function()
+        require('neogit').setup {}
+
+        vim.keymap.set('n', '<leader>gd', require('neogit').open, { desc = '[G]it [D]ashboard' })
+    end
 }
