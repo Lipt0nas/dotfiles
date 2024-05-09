@@ -25,7 +25,7 @@
         "privacy"
     ],
     "hyprland/language": {
-        "format": "  {}",
+        "format": " 󰌌 {}",
         "format-en": "EN",
         "format-lt": "LT"
     },
@@ -45,7 +45,7 @@
         "spacing": 10
     },
     "cpu": {
-        "format": "  {usage}%  {avg_frequency}GHz {icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}",
+        "format": "  {usage}%  {avg_frequency}GHz {icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}{icon8}{icon9}{icon10}{icon11}{icon12}{icon13}{icon14}{icon15}{icon16}{icon17}{icon18}{icon19}{icon20}{icon21}{icon22}{icon23}{icon24}{icon25}{icon26}{icon27}{icon28}{icon29}{icon30}{icon31}",
         "format-icons": [
             "<span color='#69ff94'>▁</span>",
             "<span color='#2aa9ff'>▂</span>",
@@ -129,15 +129,15 @@
         "format-disconnected": "󱘖"
     },
     "bluetooth": {
-        "format": "",
-        "format-disabled": "",
-        "format-off": "",
-        "format-connected": " {num_connections}"
+        "format": "󰂯",
+        "format-disabled": "󰂲",
+        "format-off": "󰂲",
+        "format-connected": "󰂱 {num_connections}"
     },
     "pulseaudio": {
         "tooltip-format": "{desc}",
         "format": "{icon} {volume}%",
-        "format-muted": "婢",
+        "format-muted": "󰝟",
         "on-click": "pavucontrol",
         "scroll-step": 5,
         "format-icons": {
