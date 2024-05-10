@@ -31,7 +31,7 @@ success_symbol = "[❯](green)"
 
 [sudo]
 disabled = false
-symbol = "🧙"
+symbol = ""
 format = "[$symbol]($style)"
 
 [username]
@@ -59,7 +59,7 @@ repo_root_format = "[ $before_root_path]($style)[$repo_root]($repo_root_style)[$
 format = "[ $path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
-symbol = "  "
+symbol = "  "
 style = "green"
 format = "[ ](#767676)[$symbol$branch]($style)"
 
@@ -118,7 +118,7 @@ format = '([  ](#767676)[${symbol}${pyenv_prefix}(${version} )([\($virtualenv
 
 [aws]
 disabled = false
-symbol = " "
+symbol = " "
 format = '([  ](#767676)[$symbol$profile(\[$duration\])]($style))'
 
 [conda]
@@ -135,7 +135,7 @@ format = "[${symbol}nix ${state} ]($style)"
 [memory_usage]
 disabled = false
 threshold = -1
-symbol = ""
+symbol = ""
 style = "#5f8787"
 format = "([  ](#767676)[$ram_pct $symbol]($style))"
 
@@ -148,7 +148,7 @@ disabled = true
 
 [os]
 disabled = false
-format = "[  ](#767676)[$symbol]($style)"
+format = "[  ](#767676)[$symbol]($style) "
 
 [os.symbols]
 "Alpine" = ""
@@ -164,7 +164,7 @@ format = "[  ](#767676)[$symbol]($style)"
 "Mint" =  ""
 "NixOS" =  ""
 "Raspbian" =  ""
-"Ubuntu" = ""
+"Ubuntu" = ""
 "Windows" = ""
 
 ### Custom plugins
